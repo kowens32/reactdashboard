@@ -1,6 +1,6 @@
 // src/TrafficMonitor.js
 import React from 'react';
-import './TrafficMonitor.css';
+import './App.css';
 
 const getColor = (traffic) => {
   if (traffic >= 0 && traffic <= 10) return 'red';
