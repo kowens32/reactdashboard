@@ -1,38 +1,26 @@
-.app-container {
+/* src/TrafficMonitor.css */
+.traffic-monitor {
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 100px;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.region {
-  display: flex;
-  justify-content: space-between;
-  width: 150px;
-  margin-top: 10px;
+  align-items: center;
+  height: 100vh;
 }
 
 .tile {
-  width: 70px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.title {
-  margin-bottom: 10px;
+.region {
+  margin-top: 10px;
+}
+
+.indicator {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 50%;
 }
