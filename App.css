@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.region {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.tile {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  margin-bottom: 10px;
+}
